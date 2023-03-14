@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+   
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    background-color: rgb(241, 125, 17);
+    height: 50px;
+}
+.nav h1{
+    font-family: sans-serif;
+    color: white;
+    font-size: x-larger;  
+    margin-left: 50px;  
+    padding: 6px;
+    cursor: pointer;
+}
+nav{
+    background-color: black;
+}
+nav ul li{
+    margin-left: 50px;
+    display: inline-block;
+    color: white;
+    margin: 9px;
+    padding-left: 46px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(149, 247, 247);
+}
+
+.firstSec{
+    margin-top: 35px;
+    /* background-color: blue; */
+    background-image: url(./Images/bg.png);
+    padding: 130px; 
+}
+.title {
+    text-align: center;
+    font-family: sans-serif;
+}
+.title h1{
+    font-size: 45px;
+}
+
+.secondSec{
+    /* background-color: antiquewhite; */
+    width: 70%;
+    height: auto;
+}
+
+.aboutme{
+    margin-top: 10px ;
+    font-family: sans-serif;
+    padding: 15px; 
+    
+}
+
+aside{
+    position: absolute;
+    top: 428px;
+    right: -661px;
+    width: 74%;
+}
+
+aside img{
+    width: 17%;
+    /* height: 30%; */
+    border-radius: 50%;
+    border: 2px solid rgb(255, 0, 119);
+}
+
+footer{
+    background-color: black;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
